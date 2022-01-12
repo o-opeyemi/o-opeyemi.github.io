@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>Opeyemi</title>
+<meta name="author" content="Opeyemi Ogunsanya">
+<meta name="description" content="Opeyemi Ogunsanya personal website, you can find more information about him here">
+<meta name="keywords" content="Opeyemi, Ogunsanya, Opeyemi Ogunsanya, web development, personal, one page, arduino programming, arduino, programming">
+
+<!-- FAVICON FILES -->
+<link href="assets/images/icons/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
+<link href="assets/images/icons/apple-touch-icon-120-precomposed.png" rel="apple-touch-icon" sizes="120x120">
+<link href="assets/images/icons/apple-touch-icon-76-precomposed.png" rel="apple-touch-icon" sizes="76x76">
+<link href="assets/images/icons/favicon.png" rel="shortcut icon">
+
+<!-- CSS FILES -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="mobile.css">
+<link rel="stylesheet" href="weather.css">
+<link rel="stylesheet" id="colors" href="color-blue.css">
+<link rel="stylesheet" href="loader.css">
+<link rel="stylesheet" href="fontawesome  v5.15.4/css/all.css">
+</head>
+<body>
+    
+<!-- HEADER-->
+<!-- Small Devices -->
+<div class="sd-header fixed-top">
+    <div class="container">
+        <!-- Logo -->
+        <a href="#">
+            <img src="icon.jpg" alt="" srcset="">
+        </a>
+        <!-- Logo Ends-->
+        <!-- Menu Toggle -->
+        <div id="menu-toggle" class="sd-button">
+            <div class="menu-bar-wrapper">
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu Dropdown -->
+    <div class="sd-header-menu">
+        <div class="nav-menu">
+            <ul class="scrollspy" role="menu" style="display: none;">
+                <li>
+                    <a class="nav-link active" href="#home" id="home">
+                        Home
+                    </a>
+                </li>
+                <div></div>
+                <li>
+                    <a class="nav-link" href="#about" id="about">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#skills" id="skills">
+                        Skills
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#portfolio" id="portfolio">
+                        Portfolio
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#contact" id="contact">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Devices -->
+    <header id="header-global" class="fixed-top">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="header-left">
+                    <!-- logo --> 
+                    <a class="logo scroll-link" href="#"><img src="icon.jpg" alt="logo" width="108"></a> 
+                    <!-- logo ends -->
+                    <!-- logo on scroll --> 
+                    <a class="logo-scroll scroll-link" href="#"><img src="icon.jpg" alt="logo" width="108"></a> 
+                    <!-- logo on scroll ends -->  
+                </div>
+                <div class="header-right">
+                    <div class="menu-navigation menu-dark">
+                        <ul class="menu pan-y">
+                            <li>
+                                <a id="home" class="nav-link active" href="#home">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a id="about" class="nav-link" href="#about">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a id="skills" class="nav-link" href="#skills">
+                                    Skills
+                                </a>
+                            </li>
+                            <li>
+                                <a id="portfolio" class="nav-link" href="#portfolio">
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a id="contact" class="nav-link" href="#contact">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Settings -->
+    <div class="color-settings fixed-right">
+        <div class="col-lg-2">
+            <div class="button shadow-lg">
+                <span id="color-icon" class="fa fa-wifi"></span>
+            </div>
+        </div>
+        <div class="col-lg-10">
+            <div class="colors shadow-lg">
+                <div class="column">
+                    <span id="blue" class="fa fa-circle"></span>
+                    <span id="yellow" class="fa fa-circle"></span>
+                    <span id="purple" class="fa fa-circle"></span>
+                    <span id="brown" class="fa fa-circle"></span>
+                    <span id="orange" class="fa fa-circle"></span>
+                    <span id="pink" class="fa fa-circle"></span>
+                    <span id="violet" class="fa fa-circle"></span>
+                    <span id="red" class="fa fa-circle"></span>
+                    <span id="green" class="fa fa-circle"></span>
+                    <span id="sblue" class="fa fa-circle"></span>
+                </div>
+                <div class="reset">
+                    Reset
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BODY -->
+        <!-- Main Content Begins -->
+        <div id="main-content" class="content">
+            <!-- Home Section -->
+            <section id="home" class="section">
+                <div class="col-lg-7 home-img2">
+                    <div class="boxed">
+                        <img src="3.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="col-lg-4 home-text">
+                        <div class="column">
+                            <div class="boxed">
+                                <span class="fa fa-user"></span>
+                                <div class="hello">Hi, I'm Opeyemi Ogunsanya</div> 
+                                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error saepe aut eum corrupti tenetur maxime iste sed</div>
+                                <div class="info">
+                                    <span class="fa fa-briefcase"></span>
+                                    Two jobs sided & Me watchinf what they
+                                </div>
+                                <div class="info">
+                                    <span class="fa fa-file"></span>
+                                    Two jobs sided & Me watchinf what they
+                                </div>
+                                <div class="info">
+                                    <span class="fa fa-map-marker-alt"></span>
+                                    Lagos, Nigeria.
+                                </div>
+                            </div>
+                            <div class="boxed cv">
+                                Download my file for better use.
+                                <div class=" info row">
+                                    <div class="default-button col-lg-4">Download Me</div>
+                                    <div id="conb" class="default-button col-lg-4">Contact Me</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix space"></div>
+                    <div class="col-lg-7 home-img">
+                        <div class="boxed">
+                            <img src="3.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About Section -->
+            <section id="about" class="section">
+                <div class="col-lg-7 about-mobile">
+                    About Me
+                </div>
+                <div class="col-lg-12">
+                    <div class="col-lg-4 about-img">
+                        <div class="boxed">
+                            <img src="Capture.JPG" alt="">
+                        </div>
+                    </div>
+                    <div class="clearfix space"></div>
+                    <div class="col-lg-7 about-text">
+                        <div class="column">
+                            <div class="aboutme">About Me</div>
+                            <div class="atext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptate sint quas placeat laboriosam totam dolores neque reprehenderit fuga pariatur aut necessitatibus iste eligendi maiores quia unde, ipsa illum cumque?</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 about-text2">
+                    <div class="atext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias voluptate sint quas placeat laboriosam totam dolores neque reprehenderit fuga pariatur aut necessitatibus iste eligendi maiores quia unde, ipsa illum cumque?</div>
+                </div>
+            </section>
+            <!-- Skills  Section -->
+            <section id="skills" class="section">
+                <div class="col-lg-12 row">
+                    <div class="col-lg-2">
+                        <div class="skill-bar py">
+                            <div class="progress pink">
+                                <span class="progress-left">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <div class="progress-value">70%</div>
+                            </div>
+                            <div class="skill">
+                                python
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="skill-bar dj">
+                            <div class="progress pink">
+                                <span class="progress-left">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <div class="progress-value">65%</div>
+                            </div>
+                            <div class="skill">
+                                Django
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="skill-bar ht">
+                            <div class="progress pink">
+                                <span class="progress-left">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <div class="progress-value">70%</div>
+                            </div>
+                            <div class="skill">
+                                Html 5
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="skill-bar cs">
+                            <div class="progress pink">
+                                <span class="progress-left">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <div class="progress-value">75%</div>
+                            </div>
+                            <div class="skill">
+                                Css
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="skill-bar bt">
+                            <div class="progress pink">
+                                <span class="progress-left">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <div class="progress-value">85%</div>
+                            </div>
+                            <div class="skill">
+                                bootstrap
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio" class="section">
+                <div class="column">
+                    <div class="col-lg-12 title">Portfolio</div>
+                    <div class="col-lg-12 imgs">
+                        <div class="col-lg-4">
+                            <div class="boxed">
+                                <img src="3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="boxed">
+                                <img src="3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="boxed">
+                                <img src="3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="section">
+                <div class="col-lg-12 head">
+                    Contact Me
+                </div>
+                <div class="col-lg-12 row">
+                    <div class="col-lg-4 form">
+                        <form action="" method="post">
+                            <div class="form-text">
+                                firstname
+                                <sup>
+                                    <span class="fa fa-star"></span>
+                                </sup>
+                            </div>
+                            <input type="text" class="col-lg-8" name="firstname" id="firstname" required>
+                            <div class="form-text">
+                                LastName
+                                <sup>
+                                    <span class="fa fa-star"></span>
+                                </sup>
+                            </div>
+                            <input type="text" class="col-lg-8" name="lastname" id="lastname" required>
+                            <div class="form-text">Phone Number</div>
+                            <input type="tel" class="col-lg-6" name="telephone" id="telephone">
+                            <div class="form-text">
+                                Email
+                                <sup>
+                                    <span class="fa fa-star"></span>
+                                </sup>
+                            </div>
+                            <input type="email" class="col-lg-8" name="email" id="email" required>
+                            <div class="form-text">
+                                Message
+                                <sup>
+                                    <span class="fa fa-star"></span>
+                                </sup>
+                            </div>
+                            <textarea name="messgae" id="message" cols="20" rows="5" required></textarea>
+                            <div class="col-lg-8">
+                            <input type="submit"class="default-button" value="zzz">
+                            </div>                        
+                        </form>
+                    </div>
+                    <div class="col-lg-4">
+                    </div>
+                    <div class="col-lg-4 contact">
+                        <div class="clos">
+                            <div class="con">
+                                <a href="mailto:ogunsanyaopeyemi4@gmail.com">
+                                    <span id="red" class="fa fa-envelope"></span>ogunsanyaopeyemi4@gmail.com
+                                </a>
+                            </div>
+                            <div class="con">
+                                <a href="https://www.linkedin.com/in/opeyemi-ogunsanya/">
+                                    <span id="blue" class="fab fa-linkedin"></span>Opeyemi Ogunsanya
+                                </a>
+                            </div>
+                            <div class="con">
+                                <a href="https://www.wa.me/+23462351846">
+                                    <span id="green" class="fab fa-whatsapp"></span>+23462351846
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact  Section -->
+        </div>
+    <!-- JS FILES --> 
+    <script src="jquery 3.6.0.min.js"></script> 
+    <script src="bootstrap/js/bootstrap.js"></script> 
+    <script src="js2.js"></script> 
+</body>
+</html>

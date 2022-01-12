@@ -1,0 +1,41 @@
+:root{
+    --color: #d71b3b;
+}
+.sd-header .sd-button .menu-bar-wrapper .menu-bar{
+    width: 75%;
+    height: 15px;
+    transition: .5s ease-in-out;    
+    border-bottom: 2px solid var(--color);
+}
+.menu .nav-link.active, .sd-header-menu .nav-link.active{
+    color: var(--color) !important;
+}
+.nav-link:hover{
+    color: var(--color);
+    transition: .3 ease;
+}
+
+section#home .col-lg-12 .home-text span.fa-user{
+    height: 40px;
+    width: 40px;
+    background: var(--color);
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#home .col-lg-12 .home-text div.info .fa{
+    color: var(--color);
+}
+.progress.pink .progress-bar {
+    border-color: var(--color);
+}
+.form-text sup{
+    color: var(--color);
+}
+section#contact .form input:focus-visible{
+    outline: var(--color) auto 0px;
+    box-shadow: 0 0 .5rem var(--color);
+}
