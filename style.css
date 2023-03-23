@@ -1018,7 +1018,6 @@ h6 {
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 45px;
     transform: translate(-50%, -50%);
     width: 60px;
     height: 60px;
@@ -1789,6 +1788,10 @@ h6 {
     color: #000;
 }
 
+.pw_contact .success {
+    display: none;
+}
+
 .pw_contact .contact_card .head,
 .pw_contact .contact_card .content,
 .pw_contact .contact_card .bottom {
@@ -2397,9 +2400,6 @@ input::-webkit-inner-spin-button {
 }
 
 @media(max-width:1040px) {
-    .container {
-        padding: 0 20px;
-    }
 
     .mouse-cursor {
         display: none;
@@ -2618,8 +2618,8 @@ input::-webkit-inner-spin-button {
         max-width: 100% !important;
     }
 
-    .pw_services .service_list ul {
-        margin: 0;
+    .pw_portfolio .works .websites .block div .overlay {
+        top: 20%;
     }
 
     .pw_services .service_list ul li {
@@ -2786,6 +2786,10 @@ input::-webkit-inner-spin-button {
     }
     .pw_contact .contact_card .bottom {
         font-size: 11px;
+    }
+
+    .pw_portfolio .works .websites .block div .overlay {
+        width: 25%;
     }
 }
 
