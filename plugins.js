@@ -260,7 +260,6 @@ $(document).ready(function () {
   pw_nav_bg();
   dateTime();
   getNumber("4", ".minutes", " .digit_1");
-  contact_form();
   header_spacing();
   $("#home").css("padding-top", header.height() / 2);
   $("#home").css("padding-top", "0px");
