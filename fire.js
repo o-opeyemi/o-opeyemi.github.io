@@ -42,7 +42,6 @@ const writeToDatabase = (name, email, phone, subject, message) => {
 };
 
 const db = getDatabase(app);
-console.log(db);
 $(".contact_form").on("submit", function (e) {
   e.preventDefault();
   var json = {
